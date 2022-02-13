@@ -1,6 +1,15 @@
 import React from "react";
-import Footer from "./footer.jsx";
 
-
+const Footer = () => {
+	return (
+		<nav class="navbar fixed-bottom navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					Copyright @ Your website 2022
+				</a>
+			</div>
+		</nav>
+	);
+};
 
 export default Footer;

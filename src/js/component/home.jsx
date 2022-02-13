@@ -3,9 +3,7 @@ import Card from "./card.jsx";
 import "../../styles/card.css";
 import Menu from "./menu.jsx";
 import Hero from "./hero.jsx";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import Footer from "./footer.jsx";
 
 //create your first component
 const Home = () => {
@@ -13,10 +11,13 @@ const Home = () => {
 		<div>
 			<Menu />
 			<Hero />
-			<div className="card">
-				<Card>Card title </Card>;<Card>Card title</Card>;
-				<Card>Card title</Card>;<Card>Card title</Card>;
+			<div className="d-flex justify-content-center">
+				<Card>Card title</Card>
+				<Card>Card title</Card>
+				<Card>Card title</Card>
+				<Card>Card title</Card>
 			</div>
+			<Footer />
 		</div>
 	);
 };
